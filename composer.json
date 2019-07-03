@@ -1,0 +1,22 @@
+{
+    "name": "zoilomora/ocean-smart-client",
+    "description": "This library helps to communicate with OceanSmart software.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "ocean",
+        "smart",
+        "client"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZoiloMora\\OceanSmartClient\\": "src/"
+        }
+    }
+}
